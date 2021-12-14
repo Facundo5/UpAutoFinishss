@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">UpAuto</string>
+    <string name="TextViewname">Nombre</string>
+    <string name="TextViewsurname">Apellido</string>
+    <string name="TextViewemail">Email</string>
+    <string name="TextViewpassword">Contraseña</string>
+    <string name="TermsandConditions">Acepto los terminos y condiciones</string>
+    <string name="Record">Recordarme</string>
+    <string name="HaveAccount">Ya tienes cuenta?</string>
+    <string name="HaveAccountL">Ingresa</string>
+    <string name="TextRegister">Registrarse</string>
+    <string name="Floating">Vender</string>
+    <string name="Pricecar">Precio:</string>
+    <string name="Titlecar">Titulo:</string>
+    <string name="Marcacar">Marca:</string>
+    <string name="Descriptioncar">Descripcion:</string>
+    <string name="Photocar">Imagen:</string>
+    <string name="upload">Subir imagen</string>
+    <string name="Textacceder">Ingresar</string>
+    <string name="NoAccount">No tienes cuenta?</string>
+    <string name="NoAccountR">Ingresa aqui</string>
+    <string name="Publicar">Publicar</string>
+    <string name="anio">Año</string>
+    <string name="title_activity_home_menu">activity_home_menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+    <string name="contact">Contacto:</string>
+    <string name="phone">Tel:</string>
+
+    <string name="menu_home">UpAuto</string>
+    <string name="menu_gallery">Vender</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="welcome">Bienvenido nuevamente</string>
+</resources>

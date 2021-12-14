@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sellactivity"
+    android:background="#264660">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:paddingTop="20dp"
+            android:id="@+id/UpAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/app_name"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imageViewa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_upautos_foreground" />
+    <LinearLayout
+
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backgroundsell"
+        android:paddingLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titulocard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Titlecar"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/EditextTittlecar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingRight="2dp"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textSize="17dp">
+
+            <TextView
+                android:id="@+id/publicationsPriceA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="2dp"
+                android:text="@string/Pricecar"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/publicationsPriceB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="2dp"
+                android:text="$"
+                android:textColor="#000000"
+                android:textSize="17dp"/>
+            <EditText
+                android:id="@+id/EditextPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="2dp"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:ems="10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/publicationsMarcaA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="2dp"
+                android:text="@string/Marcacar"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/EditextMarcacar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textColor="#000000"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/publicationsAnioA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="2dp"
+                android:text="@string/anio"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextanio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textColor="#000000"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/publicationsdescripcionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Descriptioncar"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/EditTextDescripcioncar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="#000000"
+            android:gravity="top"
+            android:textSize="17dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/publicationscontactA"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/contact"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextcontact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textSize="17dp">
+
+            <TextView
+                android:id="@+id/publicationstelA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/phone"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTexttel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#000000"
+                android:textSize="17dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Photocar"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/previewimage"
+            android:layout_width="150dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/btnsubirimagen"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="75dp"
+            android:text="@string/upload"
+            android:textSize="10dp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <Button
+            android:id="@+id/publicanouncer"
+            android:background="@drawable/btningreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Publicar"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="80dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
